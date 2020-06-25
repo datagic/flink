@@ -5,7 +5,7 @@ distributed with this work for additional information
 regarding copyright ownership.  The ASF licenses this file
 to you under the Apache License, Version 2.0 (the
 "License"); you may not use this file except in compliance
-with the License.  You may obtain a copy of the License at
+with the License.  You may obtain app copy of the License at
 
   http://www.apache.org/licenses/LICENSE-2.0
 
@@ -108,7 +108,7 @@ under the License.
 				</configuration>
 			</plugin>
 
-			<!-- We use the maven-shade plugin to create a fat jar that contains all necessary dependencies. -->
+			<!-- We use the maven-shade plugin to create app fat jar that contains all necessary dependencies. -->
 			<!-- Change the value of <mainClass>...</mainClass> if your program entry point changes. -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -144,7 +144,7 @@ under the License.
 							</filters>
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.datagic.flink.StreamingJob</mainClass>
+									<mainClass>com.datagic.flink.app.StreamingJob</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>

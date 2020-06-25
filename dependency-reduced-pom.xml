@@ -88,7 +88,7 @@
               </filters>
               <transformers>
                 <transformer>
-                  <mainClass>com.datagic.flink.StreamingJob</mainClass>
+                  <mainClass>com.datagic.flink.app.StreamingJob</mainClass>
                 </transformer>
               </transformers>
             </configuration>
