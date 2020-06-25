@@ -3,9 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.datagic.flink.java</groupId>
   <artifactId>flink</artifactId>
-  <name>Flink Quickstart Job</name>
   <version>1.0</version>
-  <url>http://www.myorganization.org</url>
   <build>
     <pluginManagement>
       <plugins>
@@ -116,17 +114,6 @@
       </dependencies>
     </profile>
   </profiles>
-  <repositories>
-    <repository>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots />
-      <id>apache.snapshots</id>
-      <name>Apache Development Snapshot Repository</name>
-      <url>https://repository.apache.org/content/repositories/snapshots/</url>
-    </repository>
-  </repositories>
   <dependencies>
     <dependency>
       <groupId>org.slf4j</groupId>
