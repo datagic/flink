@@ -1,12 +1,12 @@
-package com.datagic.flink.datastream
+package com.datagic.flink.datastream.source
 
-import org.apache.flink.streaming.api.functions.source.{ParallelSourceFunction, SourceFunction}
+import org.apache.flink.streaming.api.functions.source.SourceFunction
 
 /**
- * Desc: 自定义的并行Source
+ * Desc: 自定义的非并行Source
  * Author 云瞻
  */
-class CustomParallelSourceFunction extends ParallelSourceFunction[Long] {
+class CustomNonParallelSourceFunction extends SourceFunction[Long] {
 
   var count = 1L
 
@@ -23,6 +23,6 @@ class CustomParallelSourceFunction extends ParallelSourceFunction[Long] {
   }
 
   override def cancel(): Unit = {
-    isRunning = false
+    var isRunning = false
   }
 }

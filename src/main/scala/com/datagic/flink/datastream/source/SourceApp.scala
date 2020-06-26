@@ -1,7 +1,6 @@
-package com.datagic.flink.datastream
+package com.datagic.flink.datastream.source
 
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
-import org.apache.flink.api.scala._
 
 /**
  * Desc: DataStream API

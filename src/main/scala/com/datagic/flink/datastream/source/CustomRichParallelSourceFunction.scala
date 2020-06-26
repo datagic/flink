@@ -1,4 +1,4 @@
-package com.datagic.flink.datastream
+package com.datagic.flink.datastream.source
 
 import org.apache.flink.streaming.api.functions.source.{RichParallelSourceFunction, SourceFunction}
 
