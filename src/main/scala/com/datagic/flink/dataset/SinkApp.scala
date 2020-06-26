@@ -7,7 +7,6 @@ import org.apache.flink.core.fs.FileSystem.WriteMode
 /**
  * Desc: DataSet Sink
  * Author 云瞻
- * CreateDate 2020/6/26 1:26 上午
  */
 object SinkApp {
 

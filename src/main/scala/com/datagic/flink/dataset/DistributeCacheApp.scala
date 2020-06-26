@@ -9,7 +9,6 @@ import org.apache.flink.configuration.Configuration
 /**
  * Desc: 分布式缓存
  * Author 云瞻
- * CreateDate 2020/6/26 2:08 上午
  */
 object DistributeCacheApp {
   def main(args: Array[String]): Unit = {

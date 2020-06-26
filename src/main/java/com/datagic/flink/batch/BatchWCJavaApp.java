@@ -9,7 +9,6 @@ import org.apache.flink.util.Collector;
 /**
  * Desc: 使用Java API 开发 Flink 批处理 word count程序
  * Author 云瞻
- * CreateDate 2020/6/25 8:23 下午
  */
 public class BatchWCJavaApp {
 

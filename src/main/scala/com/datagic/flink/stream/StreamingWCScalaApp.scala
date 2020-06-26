@@ -7,7 +7,6 @@ import org.apache.flink.streaming.api.windowing.time.Time
 /**
  * Desc: Scala流处理 word count
  * Author 云瞻
- * CreateDate 2020/6/25 10:02 下午
  */
 object StreamingWCScalaApp {
   def main(args: Array[String]): Unit = {

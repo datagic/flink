@@ -11,7 +11,6 @@ import org.apache.flink.util.Collector;
 /**
  * Desc: 流数据 word count
  * Author 云瞻
- * CreateDate 2020/6/25 9:30 下午
  */
 public class StreamingWCJavaApp {
 

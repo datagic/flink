@@ -5,7 +5,6 @@ import org.apache.flink.api.scala.ExecutionEnvironment
 /**
  * Desc: 使用Scala开发Flink的批处理应用程序
  * Author 云瞻
- * CreateDate 2020/6/25 9:16 下午
  */
 object BatchWCScalaApp {
 

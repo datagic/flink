@@ -8,9 +8,7 @@ import scala.collection.mutable.ListBuffer
 
 /**
  * Desc: DataSet Transformation
- * Author 邱志伟（云瞻）
- * CreateDate 2020/6/26 12:17 上午
- * CopyRight: Beijing Xiyun Co., Ltd.
+ * Author 云瞻
  */
 object TransformationApp {
 

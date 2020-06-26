@@ -10,7 +10,6 @@ import org.apache.flink.core.fs.FileSystem.WriteMode
 /**
  * Desc: 计数器
  * Author 云瞻
- * CreateDate 2020/6/26 1:39 上午
  */
 object CountApp {
   def main(args: Array[String]): Unit = {

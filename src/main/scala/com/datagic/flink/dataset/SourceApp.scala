@@ -7,7 +7,6 @@ import org.apache.flink.configuration.Configuration
 /**
  * Desc: DataSet 数据源获取方式
  * Author 云瞻
- * CreateDate 2020/6/25 11:45 下午
  */
 object SourceApp {
 
