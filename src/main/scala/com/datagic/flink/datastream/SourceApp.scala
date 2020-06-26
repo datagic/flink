@@ -14,7 +14,7 @@ object SourceApp {
 
     //    val data = env.addSource(new CustomNonParallelSourceFunction).setParallelism(1)
     //    val data = env.addSource(new CustomParallelSourceFunction).setParallelism(2)
-    val data = env.addSource(new CustomRichParallelSourceFunction).setParallelism(1)
+    val data = env.addSource(new CustomRichParallelSourceFunction).setParallelism(2)
 
     data.print()
 

@@ -1,12 +1,12 @@
 package com.datagic.flink.datastream
 
-import org.apache.flink.streaming.api.functions.source.{RichSourceFunction, SourceFunction}
+import org.apache.flink.streaming.api.functions.source.{RichParallelSourceFunction, SourceFunction}
 
 /**
  * Desc: 自定义的非并行Source
  * Author 云瞻
  */
-class CustomRichParallelSourceFunction extends RichSourceFunction[Long] {
+class CustomRichParallelSourceFunction extends RichParallelSourceFunction[Long] {
 
   var count = 1L
 
